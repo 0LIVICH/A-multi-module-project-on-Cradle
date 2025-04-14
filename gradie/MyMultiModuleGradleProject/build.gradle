@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.gradle.api.plugins:gradle-plugin:1.0' // Убедитесь, что используется нужная версия Gradle
+    }
+}
+
+allprojects {
+    group = 'ru.netology'
+    version = '1.0-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
+}

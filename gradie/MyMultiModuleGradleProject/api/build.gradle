@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    implementation project(':db') // Подключаем модуль db
+    implementation project(':service') // Подключаем модуль service
+}
